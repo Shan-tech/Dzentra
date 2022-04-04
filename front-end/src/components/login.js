@@ -55,7 +55,7 @@ function Login() {
                     <input type="password" placeholder="Password" id="password" value={formData.password}onChange={(e)=>handleChange(e)}/>
                     <button >Sign Up</button>
                 </form>
-            </div>
+            </div>  
             <div className="form-container sign-in-container">
                 <form action="#"id="signIn" onSubmit={(e)=>Submit(e)}>
                     <h1>Sign in</h1>
